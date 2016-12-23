@@ -85,6 +85,8 @@ stepsByDayMedianImputed <- median(stepsByDayImputed)
 
 ----
 
+![gras] (https://github.com/antoniom72/Reproducible-Research-Project1/blob/master/%237.png)
+
 ## 8. Panel plot comparing the average number of steps taken per 5-minute interval across weekdays and weekends
 
 ```{r}
@@ -96,4 +98,6 @@ ggplot(averagedActivityDataImputed, aes(interval, steps)) +
     xlab("5-minute interval") + 
     ylab("avarage number of steps")
 ```
+
+![gras] (https://github.com/antoniom72/Reproducible-Research-Project1/blob/master/%238.png)
 
